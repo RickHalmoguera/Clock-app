@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 ## Mobile
+![](./assets/screenshot1.png)
 ![](./assets/screenshot2.png)
-![](./assets/screenshot.png)
 
 ##Desktop
 ![](./assets/screenshot3.png)
