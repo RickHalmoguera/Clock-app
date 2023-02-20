@@ -38,13 +38,13 @@ main{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr .5fr;
+    grid-template-rows: 1fr .5fr;
     align-items: end;
 
     
     .quote-container{
         align-self: start;
-        padding: 2em 5em;
+        padding: 2em 1em;
         display: flex;
         justify-content: space-between;
         gap: 1em;
@@ -65,7 +65,7 @@ main{
     }
 
     .clock-container{
-        padding: 5em;
+        padding: 1em;
         display: flex;
         flex-direction: column;
         gap:2em;
@@ -132,11 +132,13 @@ main{
 
 
 .more-info-container{
+    max-width: 100%;
     height: 90%;
     background: #ffffffbe;
-    padding: 2em;
+    padding: 1em;
     display: grid;
     grid-template-columns: 1fr;
+    
     gap: 1em;
     
     .hr{
@@ -145,8 +147,9 @@ main{
     .tag-container{
         
         display: flex;
-        justify-content: space-between;
+        gap: 1em;
         align-items: center;
+        justify-content: space-between;
         color: #000000;
         
         .tag-name{
@@ -155,7 +158,6 @@ main{
         }
         
         .tag-text{
-
             font-size: 1.5rem;
             font-weight: 700;
             }
