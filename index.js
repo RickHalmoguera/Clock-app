@@ -27,15 +27,15 @@ let bgToShow ="daytime"
 
 const checkWidth = ()=>{
     if(window.innerWidth>= 600 && window.innerWidth< 1000){
-        document.body.style.background = `url(../assets/tablet/bg-image-${bgToShow}.jpg)`
+        document.body.style.background = `url(./assets/tablet/bg-image-${bgToShow}.jpg)`
         document.body.style.backgroundSize = "cover"
         document.body.style.backgroundRepeat = "no-repeat"
     }else if(window.innerWidth>= 1000){
-        document.body.style.background =`url(../assets/desktop/bg-image-${bgToShow}.jpg)`
+        document.body.style.background =`url(./assets/desktop/bg-image-${bgToShow}.jpg)`
         document.body.style.backgroundSize = "cover"
         document.body.style.backgroundRepeat = "no-repeat"
     }else{
-        document.body.style.background =`url(../assets/mobile/bg-image-${bgToShow}.jpg)`
+        document.body.style.background =`url(./assets/mobile/bg-image-${bgToShow}.jpg)`
         document.body.style.backgroundSize = "cover"
         document.body.style.backgroundRepeat = "no-repeat"
 
