@@ -106,7 +106,7 @@ const displayTime = (data) =>{
 }
 
 const getCurrentTime = (data)=>{
-    fetch(`http://worldtimeapi.org/api/timezone/${data.data.timezone.id}`)
+    fetch(`https://worldtimeapi.org/api/timezone/${data.data.timezone.id}`)
         .then(response => response.json())
         .then(data => displayTime(data));
 }
