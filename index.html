@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c45d098780.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Clock App</title>
+    <link rel="shortcut icon" href="./assets/favicon-32x32.png  " type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="card-container" id="grid">
+            
+            <div class="quote-container" id="quoteContainer">
+                <div class="text-container">
+                    <p class="quote-text" id="quoteText"></p>
+                    <p class="author-text" id="quoteAuthor"></p>
+                </div>
+                
+                <div class="load-quote-container">
+                    <img src="./assets/desktop/icon-refresh.svg" alt="refresh button" id="refreshBtn">
+                </div>
+            </div>
+            
+            <div class="clock-container">
+                <div class="clock">
+                    <div class="greeting-container" id="greetingText"></div>
+                    <div class="time-container">
+                        <span class="time-text" id="time"></span>
+                        <span class="timezone-text" id="timezoneCode"></span>
+                    </div>
+                    <div class="location-container">
+                        <p id="location"></p>
+                    </div>
+                </div>
+                <div class="more-info-btn-container">
+                    <div class="info-btn">
+                        <span class="more-less-text" id="btnText">
+                            more
+                        </span>
+                        <div class="arrow-container" id="infoBtn">
+                            <i class="fa-solid fa-chevron-down"id="btnImg"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         
+
+            <div class="more-info-container hidden" id="moreInfoContainer">
+                <div class="tag-container timezone">
+                    <p class="tag-name">current timezone</p>
+                    <p class="tag-text" id="timezoneText"></p>
+                </div>
+                <div class="tag-container day-year">
+                    <p class="tag-name">day of the year</p>
+                    <p class="tag-text" id="dayYearText"></p>
+                </div>
+                <hr class="hr">
+                <div class="tag-container day-week">
+                    <p class="tag-name">day of the week</p> 
+                    <p class="tag-text" id="dayWeekText"></p>
+                </div>
+                <div class="tag-container week">
+                    <p class="tag-name ">week number</p> 
+                    <p class="tag-text" id="weekText"></p>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+</body>
+<script src="./index.js"></script>
+</html>
